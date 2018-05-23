@@ -271,10 +271,11 @@
             android:id="@+id/separator5"
             android:layout_width="1dp"
             android:layout_height="30dp"
-            android:background="@color/grey_lighter"
-            android:layout_marginTop="12dp"
             android:layout_below="@+id/separator4"
-            android:layout_centerHorizontal="true"/>
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/titleAverageSpeed"
+            android:layout_toRightOf="@+id/titleAverageSpeed"
+            android:background="@color/grey_lighter" />
 
         <TextView
             android:id="@+id/titleSatellite"
