@@ -52,7 +52,7 @@ public class Data {
         return maxSpeed;
     }
 
-    public double getAvarageSpeed() {
+    public double getAverageSpeed() {
 
         double average;
         String units;
@@ -66,7 +66,7 @@ public class Data {
         return average;
     }
 
-    public double getAvarageSpeedMotion() {
+    public double getAverageSpeedMotion() {
 
         long motionTime = time - timeStopped;
         double average;
